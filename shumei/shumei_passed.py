@@ -9,7 +9,6 @@ from Crypto.Cipher import DES
 
 from xiaohongshu_check import Check
 
-
 def encrypt(key, text):
     """
     DES 加密
