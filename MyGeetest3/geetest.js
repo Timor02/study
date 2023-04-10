@@ -1,3 +1,4 @@
+
 var window = new Object();
 window.parseInt = parseInt;
 
