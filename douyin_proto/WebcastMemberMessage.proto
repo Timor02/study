@@ -1,0 +1,91 @@
+syntax = "proto3";
+
+
+message WebcastMemberMessage {
+
+    MessageDesc msg_desc = 1;
+
+    // 观看人数
+    int32 memberNums = 3;
+}
+
+message MessageDesc {
+    // 消息类型
+    string method = 1;
+    // 消息id
+    int64 messageId = 2;
+    // 房间id
+    int64 roomId = 3;
+    // 13位时间戳,
+    int64 timestamp = 4;
+    // 内容
+    string content = 7;
+    // 用户信息
+    MsgUserInfo msg_user_info = 8;
+
+    message MsgUserInfo {
+
+        string msg_method = 1;
+        string content = 2;
+        repeated MsgUserDetail msg_user_detail = 4;
+
+        message MsgUserDetail {
+            // 用户相关
+            User user_info = 21;
+            message User {
+
+                UserDesc user_desc = 1;
+                message UserDesc {
+                    int64 uid = 1;
+                    int64 short_id = 2;
+                    string nickname = 3;
+                    int32 gender = 4;
+                    HeadInfo head_info = 9;
+                    repeated LevelInfo levelInfo = 21;
+                    UserInfo userInfo = 22;
+                    LevelDetail levelDetail = 23;
+                    string dy_id = 38;
+                    string sec_uid = 46;
+
+                    // 用户头像
+                    message HeadInfo {
+                        repeated string headImg = 1;
+                    }
+
+                    //用户等级
+                    message LevelInfo {
+                        repeated string levelImg = 1;
+                        string level_type = 2;
+                        FansCardInfo fansCardInfo = 8;
+                        //用户粉丝牌信息
+                        message FansCardInfo {
+                            string content = 1;
+                            string color = 2;
+                            int32 level = 3;
+                        }
+                    }
+
+                    //用户等级详情
+                    message LevelDetail {
+                        // 等级
+                        int32 levelNum = 6;
+
+                    }
+
+
+
+                    //用户信息
+                    message UserInfo {
+                        // 关注数
+                        int32 followNums = 1;
+                        // 粉丝数
+                        int32 fansNum = 2;
+                    }
+                }
+
+            }
+        }
+    }
+
+}
+

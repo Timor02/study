@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+// xxx等x人去购买
+
+message WebcastLiveEcomMessage {
+
+    LiveEcomDesc live_ecom_desc = 1;
+    // 半匿名昵称 ps：昵***称
+    string name = 3;
+    // 去购买人数
+    int32 people_nums = 4;
+    // 固定内容
+    string content = 5;
+    // 购物车图标
+    string shopping_cart_icon = 6;
+
+    message LiveEcomDesc {
+        // 消息类型
+        string method = 1;
+        // 消息id
+        int64 messageId = 2;
+        // 房间id
+        int64 roomId = 3;
+        // 13位时间戳,
+        int64 timestamp = 4;
+    }
+}

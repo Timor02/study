@@ -1,0 +1,109 @@
+syntax = "proto3";
+
+// 礼物相关
+
+message WebcastGiftMessage {
+    GiftMessageDesc gift_msg_desc = 1;
+    int32 gift_id = 2; //礼物id
+    int32 gift_nums = 4; //礼物数量
+    User gift_user_info = 7;
+}
+message GiftMessageDesc {
+    // 消息类型
+    string method = 1;
+    // 消息id
+    int64 messageId = 2;
+    // 房间id
+    int64 roomId = 3;
+    // 13位时间戳,
+    int64 timestamp = 4;
+    // 内容
+    string content = 7;
+    // 送礼物用户信息
+    GiftInfo gift_info = 8;
+
+    message GiftInfo {
+
+        repeated GiftUserInfo gift_user_info = 4;
+
+        message GiftUserInfo {
+            // 送礼用户相关
+            UserInfo user_info = 21;
+            // 礼物信息
+            GiftInfo gift_info = 22;
+
+            message UserInfo {
+                UserDetail user_detail = 1;
+                message UserDetail {
+                    // uid
+                    int32 uid = 1;
+                    // 用户昵称
+                    string name = 3;
+                    // 抖音号
+                    string dy_id = 38;
+                }
+
+            }
+            message GiftInfo {
+                int32 giftId = 1; //礼物id
+                GiftDetail gift_deatil = 2; //礼物信息
+                message GiftDetail {
+                    string gift_desc = 1;
+                    string gift_name = 2; //礼物名称
+                }
+            }
+        }
+    }
+
+}
+
+message User {
+    int64 uid = 1;
+    int64 short_id = 2;
+    string nickname = 3;
+    int32 gender = 4;
+    HeadInfo head_info = 9;
+    LevelInfo levelInfo = 21;
+    UserInfo userInfo = 22;
+    LevelDetail levelDetail = 23;
+    string dy_id = 38;
+    string sec_uid = 46;
+
+    // 用户头像
+    message HeadInfo {
+        repeated string headImg = 1;
+    }
+
+    //用户等级
+    message LevelInfo {
+        repeated string levelImg = 1;
+    }
+
+    //用户等级详情
+    message LevelDetail {
+        // 等级
+        int32 levelNum = 6;
+
+    }
+
+    //用户粉丝牌信息
+    message FansCardInfo {
+        repeated string fansLevelImg = 1;
+        format cardFormat = 8;
+        // 粉丝牌格式
+        message format {
+            string content = 1;
+            string color = 2;
+            int32 level = 3;
+        }
+    }
+
+    //用户信息
+    message UserInfo {
+        // 关注数
+        int32 followNums = 1;
+        // 粉丝数
+        int32 fansNum = 2;
+    }
+
+}

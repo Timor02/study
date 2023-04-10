@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2b36bb11-faf9-46e9-9a04-336e50805fe0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1xwcgIzpwVdpNFss07S7DFV4Cpp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/shumei" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\study\shumei" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\study\shumei" />
+      <recent name="D:\PycharmProjects\study\得物\wx" />
+      <recent name="D:\PycharmProjects\study\快手滑块" />
+      <recent name="D:\PycharmProjects\study" />
+      <recent name="D:\PycharmProjects\study\得物\h5" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.keyword_search">
+    <configuration name="dewu_wx.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/得物/wx/dewu_wx.js" working-dir="$PROJECT_DIR$/shumei/得物/wx">
+      <method v="2" />
+    </configuration>
+    <configuration name="加速乐_success" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/加速乐" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/加速乐/加速乐_success.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="geetest_pass" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyGeetest3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyGeetest3/geetest_pass.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="keyword_search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/得物/wx" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/得物/wx/keyword_search.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.keyword_search" />
+        <item itemvalue="Node.js.dewu_wx.js" />
+        <item itemvalue="Python.geetest_pass" />
+        <item itemvalue="Python.加速乐_success" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b36bb11-faf9-46e9-9a04-336e50805fe0" name="Default Changelist" comment="" />
+      <created>1631269700208</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631269700208</updated>
+      <workItem from="1631269702938" duration="599000" />
+      <workItem from="1636526914168" duration="696000" />
+      <workItem from="1637567481129" duration="83000" />
+      <workItem from="1638327328527" duration="1647000" />
+      <workItem from="1641977798027" duration="87000" />
+      <workItem from="1643101021292" duration="4548000" />
+      <workItem from="1646384259730" duration="2527000" />
+      <workItem from="1646732052751" duration="610000" />
+      <workItem from="1658986532575" duration="713000" />
+      <workItem from="1660545440177" duration="834000" />
+      <workItem from="1660546357948" duration="311000" />
+      <workItem from="1666335614201" duration="108000" />
+      <workItem from="1677636776819" duration="1713000" />
+      <workItem from="1681092097613" duration="895000" />
+      <workItem from="1681093642473" duration="823000" />
+    </task>
+    <task id="LOCAL-00001" summary="得物参数 2021.11.10">
+      <created>1636527174945</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1636527174945</updated>
+    </task>
+    <task id="LOCAL-00002" summary="抖音直播弹幕protobuf协议解析">
+      <created>1637567546999</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1637567546999</updated>
+    </task>
+    <task id="LOCAL-00003" summary="前两天更新很多滑块都变成点选了 T^T,新增了点选js.">
+      <created>1638327458677</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638327458677</updated>
+    </task>
+    <task id="LOCAL-00004" summary="得物wx小程序参数及旋转验证码破解">
+      <created>1660546279889</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660546279889</updated>
+    </task>
+    <task id="LOCAL-00005" summary="得物wx小程序重构，403风控完美破解。">
+      <created>1666335710584</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666335710584</updated>
+    </task>
+    <task id="LOCAL-00006" summary="小程序加解密及sk参数还原">
+      <created>1677636956972</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677636956972</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ks滑块加密及指纹伪造">
+      <created>1677637599508</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677637599508</updated>
+    </task>
+    <task id="LOCAL-00008" summary="得物小程序318版本更新">
+      <created>1681092983370</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681092983370</updated>
+    </task>
+    <task id="LOCAL-00009" summary="得物小程序318版本更新">
+      <created>1681094021309</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681094021309</updated>
+    </task>
+    <task id="LOCAL-00010" summary="得物小程序318版本更新">
+      <created>1681094166001</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1681094166001</updated>
+    </task>
+    <task id="LOCAL-00011" summary="得物小程序318版本更新">
+      <created>1681094225939</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681094225939</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="得物参数 2021.11.10" />
+    <MESSAGE value="抖音直播弹幕protobuf协议解析" />
+    <MESSAGE value="前两天更新很多滑块都变成点选了 T^T,新增了点选js." />
+    <MESSAGE value="得物wx小程序参数及旋转验证码破解" />
+    <MESSAGE value="得物wx小程序重构，403风控完美破解。" />
+    <MESSAGE value="小程序加解密及sk参数还原" />
+    <MESSAGE value="ks滑块加密及指纹伪造" />
+    <MESSAGE value="得物小程序318版本更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="得物小程序318版本更新" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="595" y="107" key="CommitChangelistDialog2" timestamp="1681094224232">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="574" y="107" key="CommitChangelistDialog2/32.0.1888.1080/1920.0.1920.1080@32.0.1888.1080" timestamp="1677637596916" />
+    <state x="595" y="107" key="CommitChangelistDialog2/62.0.1858.1080/1920.0.1920.1080@62.0.1858.1080" timestamp="1681094224232" />
+    <state x="246" y="90" key="DiffContextDialog" timestamp="1681092974056">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="246" y="90" key="DiffContextDialog/62.0.1858.1080/1920.0.1920.1080@62.0.1858.1080" timestamp="1681092974056" />
+    <state width="1859" height="302" key="GridCell.Tab.0.bottom" timestamp="1681092997273">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1859" height="302" key="GridCell.Tab.0.bottom/62.0.1858.1080/1920.0.1920.1080@62.0.1858.1080" timestamp="1681092997273" />
+    <state width="1859" height="302" key="GridCell.Tab.0.center" timestamp="1681092997273">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1859" height="302" key="GridCell.Tab.0.center/62.0.1858.1080/1920.0.1920.1080@62.0.1858.1080" timestamp="1681092997273" />
+    <state width="1859" height="302" key="GridCell.Tab.0.left" timestamp="1681092997273">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1859" height="302" key="GridCell.Tab.0.left/62.0.1858.1080/1920.0.1920.1080@62.0.1858.1080" timestamp="1681092997273" />
+    <state width="1859" height="302" key="GridCell.Tab.0.right" timestamp="1681092997273">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1859" height="302" key="GridCell.Tab.0.right/62.0.1858.1080/1920.0.1920.1080@62.0.1858.1080" timestamp="1681092997273" />
+    <state x="589" y="273" key="Vcs.Push.Dialog.v2" timestamp="1681094227938">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="568" y="273" key="Vcs.Push.Dialog.v2/32.0.1888.1080/1920.0.1920.1080@32.0.1888.1080" timestamp="1677637636078" />
+    <state x="589" y="273" key="Vcs.Push.Dialog.v2/62.0.1858.1080/1920.0.1920.1080@62.0.1858.1080" timestamp="1681094227938" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/study$keyword_search.coverage" NAME="keyword_search Coverage Results" MODIFIED="1681092905350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/得物/wx" />
+    <SUITE FILE_PATH="coverage/study$_success.coverage" NAME="加速乐_success Coverage Results" MODIFIED="1646384350253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/加速乐" />
+    <SUITE FILE_PATH="coverage/study$geetest_pass.coverage" NAME="geetest_pass Coverage Results" MODIFIED="1658986589256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyGeetest3" />
+  </component>
+</project>

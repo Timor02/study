@@ -1,0 +1,72 @@
+syntax = "proto3";
+package tutorial;
+
+
+
+message DouYinUser {
+    User user = 2;
+    string content = 3;
+
+}
+
+message User {
+    int64 uid = 1;
+    int64 short_id = 2;
+    string nickname = 3;
+    int32 gender = 4;
+    HeadInfo head_info = 9;
+    LevelInfo levelInfo = 21;
+    UserInfo userInfo = 22;
+    LevelDetail levelDetail = 23;
+    string dy_id = 38;
+    string sec_uid = 46;
+
+    // 用户头像
+    message HeadInfo {
+        repeated string headImg = 1;
+    }
+
+    //用户等级
+    message LevelInfo {
+        repeated string levelImg = 1;
+        string level_type = 2;
+        FansCardInfo fansCardInfo = 8;
+        //用户粉丝牌信息
+        message FansCardInfo {
+            string content = 1;
+            string color = 2;
+            int32 level = 3;
+        }
+    }
+
+    //用户等级详情
+    message LevelDetail {
+        // 等级
+        int32 levelNum = 6;
+
+    }
+
+    //用户粉丝牌信息
+    message FansCardInfo {
+        repeated string fansLevelImg = 1;
+        format cardFormat = 8;
+        // 粉丝牌格式
+        message format {
+            string content = 1;
+            string color = 2;
+            int32 level = 3;
+        }
+    }
+
+    //用户信息
+    message UserInfo {
+        // 关注数
+        int32 followNums = 1;
+        // 粉丝数
+        int32 fansNum = 2;
+    }
+
+}
+
+
+

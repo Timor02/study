@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+
+message WebcastRoomMessage {
+    MessageInfo messageInfo = 1;
+    string msgDetail = 2;
+}
+
+message MessageInfo {
+    // 消息类型
+    string method = 1;
+    // 消息id
+    int64 messageId = 2;
+    // 房间id
+    int64 roomId = 3;
+    // todo 13位时间戳,疑似开播时间, 有的是开播时间,有的是开播时间。
+    int64 timestamp = 4;
+
+}
