@@ -1518,7 +1518,6 @@ app.post('/getCaptchaSecertParams', function (req, res) {
     })
 })
 
-
 app.get('/getCaptchaExtraParam', function (req, res) {
     var data = req.query.did;
     console.log(data)
