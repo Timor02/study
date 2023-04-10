@@ -11,7 +11,6 @@ import pycapt
 from sklearn.model_selection import train_test_split
 
 
-
 def getletter(fn):
     print(fn)
     fnimg = cv2.imread(fn)  # 读取图像
