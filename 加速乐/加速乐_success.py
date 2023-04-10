@@ -4,7 +4,6 @@ import re
 import json
 import execjs
 
-
 class JHASH():
     def __init__(self, ha, s):
         self.ha = ha
