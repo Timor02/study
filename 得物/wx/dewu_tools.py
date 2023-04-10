@@ -45,7 +45,6 @@ from requests.adapters import HTTPAdapter
 
 Referer = 'https://servicewechat.com/wx3c12cdd0ae8b1a7b/381/page-frame.html'
 
-
 def random_obj_r():
     """
     加wx:_Teemo1202
