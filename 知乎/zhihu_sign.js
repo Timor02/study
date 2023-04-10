@@ -1,4 +1,3 @@
-
 function encrypt() {
     var __g = {};
 
